@@ -1,0 +1,32 @@
+.navBG{
+    background-color: white!important;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+
+
+    .navLink:hover{
+        color: #34988b;
+        transition: 0.3s ease;
+    }
+
+    .navLink{
+        color: #2c3e50;
+        text-decoration: none;
+    }
+
+    .navUL{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+
+
+    .menu_active{
+        font-weight: bold;
+        border-bottom: 1px solid #565387!important;
+    }
+}
